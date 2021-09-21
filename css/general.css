@@ -6,6 +6,9 @@
     /*font-family: 'Baloo Bhaina 2', cursive;*/
     box-sizing: border-box;
 }
+html{
+    font-size: 10px;
+}
 :root{
 /* variables de color */
 --gris-oscuro: rgba(74, 74, 74, 1);
@@ -22,8 +25,12 @@
  --parrafo : 1.3rem;
 
 }
-html{
-    font-size: 10px;
+
+body{
+    max-width: 37.5rem;
+    background-color: var(--gris-claro);
+    margin: auto;
+    
 }
 section{
     box-sizing: border-box;

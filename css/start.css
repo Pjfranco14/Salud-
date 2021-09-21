@@ -1,16 +1,8 @@
-body{
-    max-width: 37.5rem;
-    background-color: var(--gris-claro);
-    margin: auto;
-    
-}
+
 .section-start{
     max-width: 28.6rem;
-    height: 53.2rem;
+    height: 100vh;
     background-color: var(--blanco);
-    border-radius: 0.8rem;
-    margin-top: 1.7rem ; 
-  
 }
 .start{ 
     width: 28.6rem;
