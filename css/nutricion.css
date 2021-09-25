@@ -83,11 +83,16 @@
 }
 .contenedor-constantes{
     width: 29.2rem;
-    height: 20rem;
+    height: 25rem;
     margin: auto;
     background-color: var(--gris-claro);
     border-radius: 1.5rem;
     padding: 1.5rem;
     margin-top: 2rem;
     box-sizing: border-box;   
+}
+.contenedor-constantes img{
+    width: 25rem;
+    display: block;
+    margin: auto;
 }
