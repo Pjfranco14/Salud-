@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- sections of styles -->
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+   
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+    
+    <title>Salud+</title>
+</head>
+<body>
+        <section class="section-test">
+            <div class="test-img"></div>
+            <div class="test-contenido">  
+                <form id="formulario-nommbre" class="formulario-nombre">
+                    <label><h2>¿Cuál es tu nombre?</h2><input type="text" id="nombre"></label>
+                    <button id="btn-siguiente"class="boton"><h2>SIGUIENTE</h2></button>
+                </form> 
+                <form id="inputFormulario" class="formulario-imc">
+                    <label for="estatura">
+                        <h2>¿Cuál es tu estatura en metros?</h2>
+                        <input 
+                        type="number"
+                        step="0.01"  
+                        class="input-estatura" 
+                        name="estatura" 
+                        placeholder="Ej. 1.80"
+                        id="inputEstatura">
+                    </label>
+                    <br><br>
+                    <label for="peso">
+                        <h2 class="peso">¿Cuál es tu peso en libras?</h2>
+                        <input 
+                        type="number"
+                        step="0.01"    
+                        class="input-peso" 
+                        name="peso" 
+                        placeholder="Ej. 90"
+                        id="inputPeso">
+                    </label>
+                    <button class="boton-resultados"><h2>RESULTADOS</h2></button>
+                </form>         
+            </div>
+        </section>        
+    <script src="js/Main.js"></script>
+
+</body>
+</html>
