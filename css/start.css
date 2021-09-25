@@ -1,22 +1,23 @@
-
 .section-start{
-    width: 100%;
-    height: auto;
-    background-color: var(--blanco);
-    display: flex;
-    flex-direction: column;
-}
-.start{ 
+    width: 32rem;
     max-width: 41.4rem;
     height: 100vh;
-    margin: auto;  
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blanco);
+}
+.start{ 
+    max-width: 28.6rem;
+    margin: auto; 
+    background-color: var(--blanco);
 
 }
 .caja-img-logo img{
     display: block;
     margin: auto;
     width: 8.6rem;
-    margin-top: 5.5rem;
+    
 }
 .section-start-titulo{
     font-size: var(--h1);
