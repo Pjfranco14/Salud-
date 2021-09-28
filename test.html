@@ -8,6 +8,7 @@
     <!-- sections of styles -->
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/recomendaciones.css">
     <link rel="stylesheet" href="css/footer.css">
 
    
@@ -51,18 +52,75 @@
                         placeholder="Ej. 90"
                         id="inputPeso">
                     </label>
-                    <br><br>
-                    <label for="" id="inputRespuesta" class="respuesta"></label>
-                    <br><br>
+                    
                     <div class="caja-botones">
                         <button class="btn-anterior"><h2>ANTERIOR</h2></button>
                         <button><h2>RESULTADOS</h2></button>
                     </div>
-                </form>         
-            </div>
-        </section>        
+                </form>
+                <div class="cajaResultados" id="cajaResultados">
+                <img src="img/salud+logo.png">
+                <label for="" id="inputRespuesta" class="respuesta"></label> 
+                <div class="bajoPeso" id="bajoPeso">
+                    <div class="alimentacion">
+                        <h1>Alimentacion</h1>
+                        <p>Para subir de peso saludable, tu alimentación debe incluir alimentos naturales como cereales, frutas y verduras. De forma indispensable, debe ser rica en proteínas como carne, huevo, pescado, pollo y queso. Además, puedes incluir alimentos que proporcionen energía.
+                        </p>
+                    </div>
+                    <div class="act-fisica">
+                        <h1>Actividad Física</h1>
+                        <p>Para llevar a cabo un proceso de aumento en masa muscular, debes realizar ejercicio con peso, iniciando de menos a más. Este tipo de actividad física puede hacerse en casa, adaptando tu peso a la actividad que realizas.
+                        </p>
+                    </div>
+                </div>  
+
+                <div class="pesoIdeal" id="pesoIdeal">
+                    <div class="alimentacion">
+                        <h1>Alimentacion</h1>
+                        <p>Es esencial que tu alimentación no sea un método de restricciones, pero sí logres crear hábitos saludables. Un factor importante es la ingesta de 5 porciones de frutas y verduras diarias, además de NO saltarnos ningún tiempo de comida, especialmente el desayuno.
+                        </p>
+                    </div>
+                    <div class="act-fisica">
+                        <h1>Actividad Física</h1>
+                        <p>Adaptar la actividad física al movimiento que más te guste es la clave, puedes elegir caminar, correr cierta cantidad de km, realizar ejercicio con peso o simplemente cardio. 45 min diarios es el mínimo que
+                            debes realizar, aumentando según lo que tu cuerpo acepte, ¡Recuerda que la calidad, es mejor que la cantidad!                            
+                        </p>
+                    </div>
+                </div> 
+
+                <div class="sobrePeso" id="sobrePeso">
+                    <div class="alimentacion">
+                        <h1>Alimentacion</h1>
+                        <p>Para llegar a la categoría de peso ideal, es necesario que inicies reduciendo el consumo de alimentos ricos en azúcares y grasas negativas, como gaseosas, comida rápida e incluso, cocinar con aceites poco saludables. No olvides incluir nutrientes, vitaminas y minerales necesarios, evitando caer en alguna enfermedad.
+                        </p>
+                    </div>
+                    <div class="act-fisica">
+                        <h1>Actividad Física</h1>
+                        <p>Incluye una rutina de ejercicios aeróbicos, cardiovasculares y de fuerza. Estos pueden adaptarse según tus gustos, tomando en cuenta el gasto energético y la ingesta de calorías por día. Algunos ejemplos pueden ser natación, correr, trotar y bicicleta. La cantidad de tiempo mínima es de 45 min, aunque esta debe adaptarse al nivel en el cual te encuentres.
+                        </p>
+                    </div>
+                </div> 
+
+                <div class="obesidad" id="obesidad">
+                    <div class="alimentacion">
+                        <h1>Alimentacion</h1>
+                        <p>De forma indispensable debes cocinar con procedimientos bajos en grasa, entre ellos: al vapor, a la plancha, al horno. Vigila tus porciones en cada tiempo de comida y evita a toda costa el consumo excesivo de alcohol y sal. Bebe de 1.5 a 2 litros de agua para expulsar los líquidos y planifica con antelación tus menús.
+                        </p>
+                    </div>
+                    <div class="act-fisica">
+                        <h1>Actividad Física</h1>
+                        <p> Incluye una rutina de ejercicios aeróbicos, cardiovasculares y de fuerza. Estos pueden adaptarse según tus gustos, tomando en cuenta el gasto energético y la ingesta de calorías por día. Algunos ejemplos pueden ser caminar, trotar, correr o nadar. La cantidad de tiempo mínima es de 45 min, aunque esta debe adaptarse al nivel en el cual te encuentres.
+                        </p>
+                    </div>
+                </div> 
+
+
+                <a href="nutricion.html" class="boton-finalizar"><h2>FINALIZAR</h2></a>  
+            </div>  
+        </div>
+    </section>        
     <script src="js/Main.js"></script>
-    <script src="js/calcularIMC.js"></script>
+    <script src="js/calcularIMC.js"></script> 
 
 </body>
 </html>

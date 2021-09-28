@@ -73,24 +73,6 @@ input{
 .peso{
     margin-top: 1rem;
 }
-.respuesta{
-    width: 25.2rem;
-    height: 5rem;
-    display: flex;
-    margin: auto;
-    padding: 0.3rem;
-    box-sizing: border-box;
-    background-color: var(--verde-oscuro);
-    font-size: var(--h2);
-    font-family: 'Baloo 2', cursive;
-    font-weight: bold;
-    text-align: center;
-    color: var(--blanco);
-}
-.respuesta:empty{
-    display: none;
-}
-
 .caja-botones{
     width: 25.2rem;
     height: 4rem;

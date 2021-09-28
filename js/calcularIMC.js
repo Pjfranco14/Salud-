@@ -15,22 +15,38 @@ var resultado = document.querySelector("#inputRespuesta");
 var peso = (libras*kilos)
 var respuesta = peso/(estatura*estatura)
 
+var cajaResultados = document.querySelector("#cajaResultados");
+var bajoPesoResultado = document.querySelector("#bajoPeso");
+var pesoIdealResultado = document.querySelector("#pesoIdeal");
+var sobrePesoResultado = document.querySelector("#sobrePeso");
+var obesidadResultado = document.querySelector("#obesidad");
+
+var formulario2 = document.querySelector("#inputFormulario");
+
+
 var bajoPeso = 0
 var pesoNormal = 18.5
 var sobrePeso = 25
 var obesidad = 30
 
+cajaResultados.classList.add('activarCaja');
+formulario2.classList.add('desactivarCaja');
+
 if(respuesta < pesoNormal){
-resultado.innerHTML = "Hola " + nombre + " tu IMC es de " + respuesta.toFixed(1) + ", te encuentras en bajo peso.";
+bajoPesoResultado.classList.add('activarCaja');
+resultado.innerHTML = ("<h1>¡OH NO " + nombre + "!</h1><h2>Te encuentras en la categoría de bajo peso, tu IMC es " + respuesta.toFixed(1) + ". Las recomendaciones de Milo para ti, son:</h2>");
 }else{
     if(respuesta < sobrePeso){
-        resultado.innerHTML ="Hola " + nombre + " tu IMC es de " + respuesta.toFixed(1) + ", te encuentras en tu peso ideal.";
+        pesoIdealResultado.classList.add('activarCaja');
+        resultado.innerHTML ="<h1>¡WOW, GENIAL " + nombre + "!</h1><h2>Te encuentras en la categoría de peso ideal, tu IMC es " + respuesta.toFixed(1) + ". Las recomendaciones de Milo para ti, son:</h2>";
         }else{
             if(respuesta < obesidad){
-                resultado.innerHTML ="Hola " + nombre + " tu IMC es de " + respuesta.toFixed(1) + ", te encuentras en sobrepeso.";
+                sobrePesoResultado.classList.add('activarCaja');
+                resultado.innerHTML ="<h1>¡OH NO " + nombre + "!</h1><h2>Te encuentras en la categoría de sobrepeso, tu IMC es " + respuesta.toFixed(1) + ". Las recomendaciones de Milo para ti, son:</h2>";
                 }else{
-                    if(respuesta > obesidad){
-                        resultado.innerHTML ="Hola " + nombre + " tu IMC es de " + respuesta.toFixed(1) + ", te encuentras en estado de obsesidad.";
+                    if(respuesta > obesidad){ 
+                        obesidadResultado.classList.add('activarCaja');
+                        resultado.innerHTML ="<h1>¡OH NO " + nombre + "!</h1><h2>Te encuentras en la categoría de obesidad, tu IMC es " + respuesta.toFixed(1) + ". Las recomendaciones de Milo para ti, son:</h2>";
 
                 }
             }
