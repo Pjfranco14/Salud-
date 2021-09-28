@@ -50,7 +50,7 @@ input{
 .boton{
     display: block;
     width: 13.9rem;
-    height: 3.9rem;
+    height: 3.2rem;
     background-color: var(--verde-oscuro);
     border-radius: 2.1rem;
     border: none;
@@ -73,26 +73,56 @@ input{
 .peso{
     margin-top: 1rem;
 }
-.boton-resultados{
+.respuesta{
+    width: 25.2rem;
+    height: 5rem;
+    display: flex;
+    margin: auto;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    background-color: var(--verde-oscuro);
+    font-size: var(--h2);
+    font-family: 'Baloo 2', cursive;
+    font-weight: bold;
+    text-align: center;
+    color: var(--blanco);
+}
+.respuesta:empty{
+    display: none;
+}
+
+.caja-botones{
+    width: 25.2rem;
+    height: 4rem;
+    display: flex;
+    margin: auto;
+    margin-top: 9.9rem;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
     display: block;
-    width: 13.9rem;
-    height: 3.9rem;
+    width: 11.3rem;
+    height: 3.2rem;
     background-color: var(--verde-oscuro);
     border-radius: 2.1rem;
     border: none;
-    margin: auto;
-    margin-top: 9.9rem;
-    margin-left: 13rem;
     cursor: pointer;
-    
 }
-.boton-resultados h2{
+.btn-anterior{
+    display: block;
+    width: 11.3rem;
+    height: 3.2rem;
+    background-color: var(--verde-oscuro);
+    border-radius: 2.1rem;
+    border: none;
+    cursor: pointer;
+}
+button h2{
     color: var(--blanco);
     text-align: center;
-    font-size: var(--h2);
-    
+    font-size: var(--h2);   
 }
-
 .activarCaja{
     display: block;
 }

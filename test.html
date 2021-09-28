@@ -26,7 +26,7 @@
             <div class="test-img"></div>
             <div class="test-contenido">  
                 <form id="formulario-nommbre" class="formulario-nombre">
-                    <label><h2>¿Cuál es tu nombre?</h2><input type="text" id="nombre"></label>
+                    <label><h2>¿Cuál es tu nombre?</h2><input type="text" id="inputNombre"></label>
                     <button id="btn-siguiente"class="boton"><h2>SIGUIENTE</h2></button>
                 </form> 
                 <form id="inputFormulario" class="formulario-imc">
@@ -51,11 +51,18 @@
                         placeholder="Ej. 90"
                         id="inputPeso">
                     </label>
-                    <button class="boton-resultados"><h2>RESULTADOS</h2></button>
+                    <br><br>
+                    <label for="" id="inputRespuesta" class="respuesta"></label>
+                    <br><br>
+                    <div class="caja-botones">
+                        <button class="btn-anterior"><h2>ANTERIOR</h2></button>
+                        <button><h2>RESULTADOS</h2></button>
+                    </div>
                 </form>         
             </div>
         </section>        
     <script src="js/Main.js"></script>
+    <script src="js/calcularIMC.js"></script>
 
 </body>
 </html>
