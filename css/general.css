@@ -22,12 +22,13 @@ html{
  /* variables de tamaño de letra */
  --h1 : 2.4rem;
  --h2 : 1.4rem;
- --parrafo : 1.3rem;
+ --parrafo : 1.6rem;
 
 }
 
 body{
     margin: auto;
+    
     
 }
 section{
@@ -36,4 +37,14 @@ section{
     width:  41.4rem;
     margin: auto;
     margin-bottom:3rem;
+}
+.contenedor{
+    width: 100%;
+    max-width: 41.4rem;
+    min-width: 32rem;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
 }

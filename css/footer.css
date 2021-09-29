@@ -1,21 +1,26 @@
+
 .caja-footer{
-    width: 32rem;
+    width: 100%;
+    max-width: 41.4rem;
+    height: 5rem;
     display: block;
     margin: auto;
-    
+    position: fixed;
+    margin-top: 0;
+    padding: auto 2rem;
+    box-sizing: border-box;
+    bottom: 1rem;
 }
 .footer{
-    width: 29.2rem;
+    width: 90%;
     height: 5.4rem;
     background-color: var(--verde-oscuro);
     border-radius: 2.25rem;
     display: block;
-    margin: auto 1.4rem 1.2rem 1.4rem;
-    position: fixed;
-    bottom: 0;   
+    margin: auto;
 }
 .caja-iconos{
-    width: 29.2rem;
+    width: 100%;
     height: 5.4rem;
     display: flex;
     margin: auto;

@@ -28,6 +28,6 @@ function RegresarFormulario(e){
     formulario1.classList.add('activarCaja');
 }
 
-/* ACTIVAR BOTON */
+/* REGRESAR BOTON */
 var btnanterior = document.querySelector("#btn-anterior");
 btnanterior.addEventListener('click', RegresarFormulario);

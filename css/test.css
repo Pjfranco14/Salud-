@@ -1,20 +1,23 @@
 .section-test{
-    width: 32rem;
+    width: 100%;
+    height: auto; 
     display: flex;
-    flex-direction: column;
-    height:auto; 
+    flex-direction: column; 
     margin: auto;
-    box-sizing: border-box;
+    margin-top: 0rem;
+  
 }
 .test-img{
-    width: 32rem;
+    display: block;
+    width: 100%;
     height: 17.9rem;
     background-image: url(../img/testimcimg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 0rem;
 }
 .test-contenido{
-    width: 32rem;
+    width: 100%;
     height: auto;
     background-color: var(--blanco);
     display: flex;
@@ -22,8 +25,7 @@
     margin: auto;
     margin-top: -2rem;
     border-radius: 3rem;
-    padding: 1.5rem 1.4rem 1.4rem 1.4rem;
-    box-sizing: border-box;
+    padding: 2rem;
 }
 /*FORMULARIO 1 PREGUNTA*/
 .formulario-nombre{
@@ -31,14 +33,14 @@
 }
 
 label h2{
-    font-size: var(--h2);
+    font-size: var(--parrafo);
     color: var(--gris-oscuro);
     margin-top: 5.8rem;
     margin-left: 1.7rem;
 }
 input{
-    width: 25.2rem;
-    height: 3.1rem;
+    width: 90%;
+    height: 3.5rem;
     display: flex;
     margin: auto;
     margin-top: 1.7rem;
@@ -56,7 +58,7 @@ input{
     border: none;
     margin: auto;
     margin-top: 20.7rem;
-    margin-left: 13rem;
+    float: right;
     cursor: pointer;
     
 }
@@ -74,18 +76,19 @@ input{
     margin-top: 1rem;
 }
 .caja-botones{
-    width: 25.2rem;
-    height: 4rem;
+    width: 90%;
+    height: 5rem;
     display: flex;
     margin: auto;
     margin-top: 9.9rem;
     justify-content: space-between;
     align-items: center;
+    
 }
 button{
     display: block;
-    width: 11.3rem;
-    height: 3.2rem;
+    width: 12rem;
+    height: 4rem;
     background-color: var(--verde-oscuro);
     border-radius: 2.1rem;
     border: none;
@@ -93,8 +96,8 @@ button{
 }
 .btn-anterior{
     display: block;
-    width: 11.3rem;
-    height: 3.2rem;
+    width: 12rem;
+    height: 4rem;
     background-color: var(--verde-oscuro);
     border-radius: 2.1rem;
     border: none;

@@ -1,7 +1,4 @@
-.cajaResultados{
-    width: 29.2rem;
-    height: auto;
-    margin: auto;   
+.cajaResultados{ 
     display: none;
 }
 .cajaResultados img{
@@ -22,7 +19,7 @@
     color: var(--gris-oscuro);
 }
 .respuesta h2{
-    font-size: var(--h2); 
+    font-size: var(--parrafo); 
     text-align: center;
     color: var(--gris-oscuro);
     margin-top: 1rem;
@@ -32,7 +29,7 @@
     display: none;
 }
 .bajoPeso, .pesoIdeal, .sobrePeso, .obesidad{
-    width: 29.2rem;
+    width: 100%;
     height: auto;
     margin: auto; 
     margin-top: 3rem;
@@ -40,7 +37,7 @@
 
 }
 .alimentacion{
-    width: 29.2rem;
+    width: 100%;
     height: auto;
     margin: auto;
     background-color: var(--gris-claro);
@@ -49,7 +46,7 @@
     box-sizing: border-box;
 }
 .act-fisica{
-    width: 29.2rem;
+    width: 100%;
     height: auto;
     margin: auto;
     margin-top: 2rem;

@@ -1,11 +1,9 @@
 .section-start{
-    width: 32rem;
-    max-width: 41.4rem;
-    height: 100vh;
-    margin: auto;
+    width: 100%;
+    height: auto; 
     display: flex;
-    flex-direction: column;
-    background-color: var(--blanco);
+    flex-direction: column; 
+    margin: auto;
 }
 .start{ 
     max-width: 28.6rem;
