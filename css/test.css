@@ -49,6 +49,11 @@ input{
     outline: none;
     border: 0;
 }
+.formulario-nombre img{
+    width: 85%;
+    display: block;
+    float: right;
+}
 .boton{
     display: block;
     width: 13.9rem;
@@ -57,7 +62,6 @@ input{
     border-radius: 2.1rem;
     border: none;
     margin: auto;
-    margin-top: 20.7rem;
     float: right;
     cursor: pointer;
     
