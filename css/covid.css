@@ -1,0 +1,98 @@
+.section-covid{
+    width: 100%;
+    height: auto; 
+    display: flex;
+    flex-direction: column; 
+    margin: auto;
+}
+.covid-img{
+    display: block;
+    width: 100%;
+    height: 17.9rem;
+    background-image: url(../img/imgsectioncovid.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.covid-contenido{
+    width: 100%;
+    height: auto;
+    background-color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: -2rem;
+    margin-bottom: 7rem;
+    border-radius: 3rem;
+    padding: 2rem;
+}
+.contenedor-parrafo1{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: var(--gris-claro);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+.contenedor-parrafo2, .contenedor-parrafo3{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: var(--gris-claro);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+.section-nutricion-subtitulo{
+    font-size: var(--h1);
+    color: var(--gris-oscuro); 
+    line-height: 3rem;
+}
+.section-nutricion-parrafo{
+    color: var(--gris-oscuro);
+    font-size: var(--parrafo);
+    text-align:justify;
+    margin-top: 0.3rem;
+    
+}
+.caja-test, .caja-link{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 12.5rem;
+    margin:auto;
+    margin-top: 2rem;
+    background-image: url(../img/imgtestcovid.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+.caja-link{
+    background-image: url(../img/vacunacion.png);
+}
+.caja-test h1{
+    font-size: var(--h1);
+    margin-left: 1.3rem;
+    color: var(--gris-oscuro);
+}
+.caja-test p{
+    font-size: var(--parrafo);
+    padding-top: 1.5rem;
+    margin-left: 1.3rem;
+    color: var(--gris-oscuro);
+}
+.caja-link h1{
+    font-size: var(--h1);
+    padding-top: 1.5rem;
+    margin-left: 1.3rem;
+    color: var(--gris-oscuro);
+}
+.caja-link p{
+    font-size: var(--parrafo);
+    margin-left: 1.3rem;
+    color: var(--gris-oscuro);
+}
+

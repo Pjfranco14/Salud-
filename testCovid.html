@@ -8,6 +8,7 @@
     <!-- sections of styles -->
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/testCovid.css">
+    <link rel="stylesheet" href="css/recomendacionesCovid.css">
     <link rel="stylesheet" href="css/footer.css">
 
    
@@ -25,120 +26,128 @@
     <div class="contenedor">
         <section class="section-test-covid">
             <div class="test-img-covid"></div>
-            <div class="test-contenido-covid">  
+            <div class="test-contenido-covid"> 
+                
                 <form class="calculadoraCovid" id="inputFormularioCovid"> 
 
                     <label>
                         Fiebre (Igual o Mayor a 37.8°C)
-                        <input 
-                        class="input-manifestaciones" 
-                        type="checkbox"
-                        id="inputManifestaciones">
+                        <input class="input-manifestaciones" type="checkbox" id="inputManifestaciones1">
                     </label>
 
                     <label>
                         Mialgia(Dolor Muscular)
-                        <input 
-                        type="checkbox"
-                        class="input-manifestaciones" 
-                        id="inputManifestaciones">
+                        <input type="checkbox" class="input-manifestaciones" id="inputManifestaciones2">
                     </label>
                     
                     <label>
                         Anosmia (Pérdida del Olfato)
-                        <input 
-                        type="checkbox"
-                        class="input-manifestaciones" 
-                        id="inputManifestaciones">
+                        <input type="checkbox" class="input-manifestaciones" id="inputManifestaciones3">
                     </label>
                
                     <label>
                         Síntomas de Gripe
-                        <input 
-                        type="checkbox"
-                        class="input-manifestaciones" 
-                        id="inputManifestaciones">
+                        <input type="checkbox" class="input-manifestaciones" id="inputManifestaciones4">
                     </label>
                    
                     <label>
                         Pernío-Lik (Lesiones en la Piel)
-                        <input 
-                        type="checkbox"
-                        class="input-manifestaciones" 
-                        id="inputManifestaciones">
+                        <input type="checkbox" class="input-manifestaciones" id="inputManifestaciones5">
                     </label>
                     
                     <label>
                        Tos Seca
-                        <input 
-                        type="checkbox"
-                        class="input-manifestaciones" 
-                        id="inputManifestaciones">
+                        <input type="checkbox" class="input-manifestaciones" id="inputManifestaciones6">
                     </label>
                    
                     <label>
                         Sensación de Falta de Aire
-                        <input 
-                        type="checkbox"
-                        class="input-manifestaciones" 
-                        id="inputManifestaciones">
+                        <input type="checkbox" class="input-manifestaciones" id="inputManifestaciones7">
                     </label>
                    
                     <label>
                         Dolor de Garganta
-                        <input 
-                        type="checkbox"
-                        class="input-manifestaciones" 
-                        id="inputManifestaciones">
+                        <input type="checkbox" class="input-manifestaciones" id="inputManifestaciones8">
                     </label>
                     
                     <label>
                         Diarrea
-                        <input 
-                        type="checkbox"
-                        class="input-manifestaciones" 
-                        id="inputManifestaciones">
+                        <input type="checkbox" class="input-manifestaciones" id="inputManifestaciones9">
                     </label>
                     
                     <label>
                         Conjuntivitis
-                        <input 
-                        type="checkbox"
-                        class="input-manifestaciones" 
-                        id="inputManifestaciones">
+                        <input type="checkbox" class="input-manifestaciones" id="inputManifestaciones10">
                     </label>
                    
                     <label>
                         Dolor de Cabeza
-                        <input 
-                        type="checkbox"
-                        class="input-manifestaciones" 
-                        id="inputManifestaciones">
+                        <input type="checkbox" class="input-manifestaciones" id="inputManifestaciones11">
                     </label>
                     
                     <label>
                         Vómitos
-                        <input 
-                        type="checkbox"
-                        class="input-manifestaciones" 
-                        id="inputManifestaciones">
+                        <input type="checkbox" class="input-manifestaciones" id="inputManifestaciones12">
                     </label>
                   
                     <label>
                         Escalofríos o Vértigo
-                        <input 
-                        type="checkbox"
-                        class="input-manifestaciones" 
-                        id="inputManifestaciones">
+                        <input type="checkbox" class="input-manifestaciones" id="inputManifestaciones13">
                     </label>
-                    
-                    <label for="" id="inputRespuesta">Resultado</label>
+
                    
                     <button class="boton"><h2>RESULTADOS</h2></button>
                 </form>
-            </div>  
-            
+
+                <div class="cajaResultados" id="cajaResultados">
+                    <img src="img/salud+logo.png">
+
+                <div class="bajaProbabilidad" id="bajaProbabilidad">
+                    <div  id="mensaje" class="mensaje"></div>
+                    <div  id="inputRespuesta" class="respuesta"></div>
+                    <div class="recomendacion">
+                    <p>Milo te recomienda que descanses y<br>estés atento a cualquier síntoma.</p>
+                    </div>
+                    
+                </div>  
+                <div class="probable" id="probable">
+                    <div  id="mensaje2" class="mensaje"></div>
+                    <div  id="inputRespuesta2" class="respuesta2"></div>
+                    <div class="recomendacion">
+                    <p>Milo te recomienda que acudas a un centro de<br>salud y te realices una prueba de antígenos</p>
+                    </div>
+                    
+                </div>  
+                <div class="muyProbable" id="muyProbable">
+                    <div  id="mensaje3" class="mensaje"></div>
+                    <div  id="inputRespuesta3" class="respuesta3"></div>
+                    <div class="recomendacion">
+                    <p>Milo te recomienda que acudas a un centro de<br>salud y te realices una prueba Molecular / PCR.</p> 
+                    </div>
+                
+                   </div>
+                   <div class="recomendacion-general">
+                    <h1>Apartado de vacunación</h1>
+                    <h2>¡Recuerda que es necesario adquirir tu<br>vacuna! Si ya tienes
+                        tu esquema de<br>vacunación completo, Milo te felicita.
+                    </h2>
+                    <p>En Guatemala puedes vacunarte con:</p>
+                    <ul>
+                        <li>Vacuna Pfizer</li>
+                        <li>Vacuna Moderna</li>
+                        <li>Vacuna Sputnik</li>
+                        <li>Vacuna Astrazeneca</li>
+                    </ul>
+                    </div>
+                    <div class="imgMilocovid">
+                        <img src="img/milosick.png">
+                    </div>   
+                    <a href="covid.html" class="boton-finalizar"><h2>FINALIZAR</h2></a>
+                </div>
+                  
+            </div>
     </section>
     </div>
+    <script src="js/calcularCovid.js"></script>
 </body>
 </html>

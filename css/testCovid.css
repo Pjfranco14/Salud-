@@ -10,8 +10,8 @@
 .test-img-covid{
     display: block;
     width: 100%;
-    height: 17.9rem;
-    background-image: url(../img/testimcimg.png);
+    height: 19rem;
+    background-image: url(../img/chicaenferma.png);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 0rem;
@@ -26,6 +26,7 @@
     padding: 2rem;
     background-color: var(--blanco);
 }
+
 label{
     width: 100%;
     height: 6.4rem;
@@ -41,9 +42,6 @@ label{
 }
 input{
     float: right;
-}
-input:checked{
-    background-color: aqua;
 }
 .boton{
     display: block;
@@ -62,4 +60,7 @@ input:checked{
     text-align: center;
     font-size: var(--h2);
     
+}
+.cambiarColor{
+    background-color: var(--verde-oscuro);
 }

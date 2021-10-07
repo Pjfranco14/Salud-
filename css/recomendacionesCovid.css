@@ -1,0 +1,125 @@
+.cajaResultados{ 
+    display: none;
+}
+.cajaResultados img{
+    display: block;
+    margin: auto;
+    width: 8.6rem; 
+}
+.bajaProbabilidad, .probable, .muyProbable{  
+    width: 100%;
+    height: auto;
+    margin: auto; 
+    display: none;  
+    
+}
+.mensaje{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.mensaje h1{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: var(--h1);
+    color: var(--gris-oscuro)
+}
+.mensaje h2{
+    display: block;
+    margin: auto;
+    margin-top: -1rem;
+    text-align: center;
+    font-size: var(--parrafo);
+    color: var(--gris-oscuro);
+    line-height: 2rem;
+}
+.respuesta, .respuesta2, .respuesta3{
+    width: 15rem;
+    height: 6.8rem;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: var(--gris-claro);
+    border-radius: 1.5rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--h1);
+    color: var(--gris-oscuro);
+    font-weight: bold;  
+    
+}
+.respuesta:empty{
+    display: none;
+}
+.recomendacion, .recomendacion-general{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0rem 2rem 0rem 2rem;
+}
+.recomendacion p, .recomendacion-general p{
+    display:block;
+    margin: auto;
+    margin-top: 1.7rem;
+    font-size: var(--h2);
+    color: var(--gris-oscuro);
+    justify-content: center;
+    text-align: center;
+}
+.recomendacion-general h1{
+    display:block;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: var(--h1);
+    color: var(--gris-oscuro);
+    justify-content: center;
+    text-align: center;
+}
+.recomendacion h2, .recomendacion-general h2{
+    display:block;
+    margin: auto;
+    margin-top: 1.2rem;
+    font-size: var(--parrafo);
+    color: var(--gris-oscuro);
+    justify-content: center;
+    text-align: center;
+    line-height: 2.3rem;
+}
+.recomendacion-general ul{
+    font-size: var(--h2);
+    color: var(--gris-oscuro);
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.imgMilocovid img{
+    width: 100%;
+    margin: auto;
+}
+.boton-finalizar{
+    display: block;
+    margin: auto;
+    
+    width: 13.4rem;
+    height: 3.2rem;
+    background-color: var(--verde-oscuro);
+    border-radius: 2.1rem;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.boton-finalizar h2{
+    color: var(--blanco);
+    text-align: center;
+    font-size: var(--h2);   
+    padding-top:0.5rem;
+}
+.activarCaja{
+    display: block;
+}
+.desactivarCaja{
+    display: none;
+}
