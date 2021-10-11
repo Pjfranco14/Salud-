@@ -26,6 +26,12 @@
     padding: 2rem;
     background-color: var(--blanco);
 }
+.marcaSintomas{
+    color: var(--gris-oscuro);
+    font-size: 1.8rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
 
 label{
     width: 100%;
